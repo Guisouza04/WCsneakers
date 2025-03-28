@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: none;
+  font-size: 2rem;
+}
+
+p {
+  font-size: 2rem;
+}
+
+header {
+  position: relative;
+  display: flex;
+  width: 100vw;
+  height: auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.icons,
+.menu {
+  width: 5rem;
+  height: 5rem;
+}
+
+.icons img,
+.menu img {
+  width: 5rem;
+}
+
+.logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.logo img {
+  width: 15rem;
+  height: 6rem;
+}
+
+.CEP {
+  position: relative;
+  display: flex;
+  border: solid 1px #00000070;
+  padding: 0.5rem;
+  margin-bottom: 1px;
+  align-items: center;
+  background-color: #e1e1e1;
+}
+
+.CEP img {
+  width: 3rem;
+  height: 3rem;
+}
+
+#seta-CEP {
+  position: absolute;
+  right: 0;
+}
+
+.carrossel-banners {
+  display: flex;
+  width: 100vw;
+  height: 475px;
+  overflow: hidden;
+  position: relative;
+}
+
+.fotos {
+  min-width: 100vw;
+  height: 475px;
+  opacity: 0;
+  position: absolute;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fotos.active {
+  opacity: 1;
+  position: relative;
+}
+
+.fotos img {
+  width: 100vw;
+  height: 475px;
+  object-fit: cover;
+}
