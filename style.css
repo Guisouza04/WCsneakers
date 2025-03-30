@@ -21,6 +21,34 @@ p {
   font-size: 2rem;
 }
 
+.container-fita {
+  background-color: #000;
+}
+
+.fita {
+  display: flex;
+  width: max-content;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: #000;
+  animation: fita 20s linear infinite;
+
+  p {
+    color: #f9a21e;
+    font-size: 1rem;
+  }
+}
+
+@keyframes fita {
+  from {
+    transform: translateX(35%);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
 header {
   position: relative;
   display: flex;
@@ -39,7 +67,7 @@ header {
 
 .icons img,
 .menu img {
-  width: 5rem;
+  width: 4rem;
 }
 
 .logo {
