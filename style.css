@@ -13,7 +13,6 @@ ul {
 }
 
 li {
-  display: none;
   font-size: 2rem;
 }
 
@@ -23,6 +22,8 @@ p {
 
 .container-fita {
   background-color: #000;
+  width: 100vw;
+  overflow: hidden;
 }
 
 .fita {
@@ -58,6 +59,40 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
+}
+
+.nav {
+  position: absolute;
+  width: 50vw;
+  height: 100vh;
+  left: -50vw;
+  top: 0;
+  background-color: #000;
+  z-index: 999;
+  transition: left 0.3s ease-in-out;
+  /* Animação suave */
+}
+
+.nav-active {
+  left: 0;
+}
+
+.nav-filtros {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  border-top: solid 1px #e1e1e15b;
+}
+
+.nav-filtros-li {
+  color: #e1e1e1;
+  border-bottom: solid 1px #e1e1e15b;
+  padding: 1rem;
+
+  & a {
+    text-decoration: none;
+    color: #e1e1e1;
+  }
 }
 
 .icons,
