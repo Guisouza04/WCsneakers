@@ -164,28 +164,27 @@ header {
   object-fit: cover;
 }
 
-/* Footer */
-
-.footer {
+/* contato */
+.contato {
   background-color: #000;
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
 }
 
-.container-footer {
+.container-contato {
   width: 100%;
   padding: 2rem;
   /* background-color: #1f1c1c; */
 }
 
-.img-footer {
+.img-contato {
   padding: 2rem;
   width: 22rem;
   height: auto;
 }
 
-.info-footer {
+.info-contato {
   margin-top: 2rem;
   display: flex;
   flex-direction: column;
@@ -193,7 +192,7 @@ header {
   gap: 1rem;
 }
 
-.infos-footer {
+.infos-contato {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -205,13 +204,51 @@ header {
   width: 20rem;
 }
 
-.svgs-footer {
+.svgs-contato {
   width: 2rem;
   height: 2rem;
 }
 
-.msg-footer {
+.msg-contato {
+  font-family: Lacquer;
   padding: 1.5rem;
+  padding-bottom: 2rem;
   font-size: 1rem;
   color: #e1e1e1;
+}
+
+/* Sessão grupo WhatsApp */
+.container-grupoWhats {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e1e1e1;
+}
+
+.h2-grupoWhats {
+  padding-top: 2rem;
+  font-family: Lacquer;
+  font-size: 2rem;
+}
+
+.a-grupoWhats {
+  font-family: Lacquer;
+  font-size: 2rem;
+  color: #000;
+}
+
+.celularComFotoDoGrupo {
+  padding-top: 2rem;
+  width: 20rem;
+}
+
+.buttonEntrarGrupoWhats {
+  padding: 0.5rem 2rem;
+  font-size: 2rem;
+  color: #000;
+  border: 2px #f9a21e solid;
+  border-radius: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
