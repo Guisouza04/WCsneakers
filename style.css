@@ -20,6 +20,11 @@ p {
   font-size: 2rem;
 }
 
+a {
+  text-decoration: none;
+  color: #e1e1e1;
+}
+
 .container-fita {
   background-color: #000;
   width: 100vw;
@@ -88,11 +93,6 @@ header {
   color: #e1e1e1;
   border-bottom: solid 1px #e1e1e15b;
   padding: 1rem;
-
-  & a {
-    text-decoration: none;
-    color: #e1e1e1;
-  }
 }
 
 .icons,
@@ -162,4 +162,50 @@ header {
   width: 100vw;
   height: 475px;
   object-fit: cover;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #000;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.container-footer {
+  width: 100%;
+  padding: 2rem;
+  /* background-color: #1f1c1c; */
+}
+
+.img-footer {
+  padding: 2rem;
+  width: 22rem;
+  height: auto;
+}
+
+.info-footer {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.infos-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: #000;
+  border-radius: 1rem;
+  border: 1px #f9a21e solid;
+  padding: 0.5rem;
+  width: 15rem;
+}
+
+.svgs-footer {
+  width: 2rem;
+  height: 2rem;
 }
