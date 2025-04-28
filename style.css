@@ -209,3 +209,9 @@ header {
   width: 2rem;
   height: 2rem;
 }
+
+.msg-footer {
+  padding: 1.5rem;
+  font-size: 1rem;
+  color: #e1e1e1;
+}
